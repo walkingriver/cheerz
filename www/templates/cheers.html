@@ -1,5 +1,5 @@
 <ion-view title="Cheers">
-  <ion-content class="has-header" ng-controller="cheersController">
+  <ion-content class="has-header" ng-controller="cheersController as vm">
       <p>Hello</p>
       <ion-list>
       <ion-item ng-repeat="cheer in vm.cheers" type="item-text-wrap" href="#/cheers/{{cheer.id}}">
