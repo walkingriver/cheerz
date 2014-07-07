@@ -10,11 +10,10 @@
 
     function cheerContext($http) {
         // Might use a resource here that returns a JSON array
-        var cheers = [];
+        var cheers = getCheers();
         var service = {
             all: function () {
-                if(cheers || !cheers.length) getCheers();
-                return cheers;
+               return cheers;
             },
             get: function (cheerId) {
                 return cheers[cheerId];
@@ -92,4 +91,4 @@
             return cheers;
         }
     }
-}())
+})();

@@ -29,23 +29,49 @@
             // Set up the various states which the app can be in.
             // Each state's controller can be found in controllers.js
             $stateProvider
+                .state('tab', {
+                    url: '/tab',
+                    abstract: true,
+                    templateUrl: 'templates/tabs.html'
+                })
                 // Each tab has its own nav history stack:
-                .state('cheers-tab', {
+                .state('tab.cheers', {
                     url: '/cheers',
-                    templateUrl: 'templates/cheers.html'
+                    views: {
+                        'tab-cheers': {
+                            templateUrl: 'templates/cheers.html',
+                            controller: 'cheersController as vm'
+                        }
+                    }
                 })
-                .state('cheer-detail', {
-                    url: '/cheers/:cheerId',
-                    templateUrl: 'templates/cheer-detail.html'
-
+                .state('tab.cheer-detail', {
+                    url: '/cheer/:cheerId',
+                    views: {
+                        'tab-cheers': {
+                            templateUrl: 'templates/cheer-detail.html',
+                            controller: 'cheersController as vm'
+                        }
+                    }
                 })
-                .state('about-tab', {
+                .state('tab.home', {
+                    url: '/home',
+                    views: {
+                        'tab-home': {
+                            templateUrl: 'templates/home.html'
+                        }
+                    }
+                })
+                .state('tab.about', {
                     url: '/about',
-                    templateUrl: 'templates/about.html'
+                    views: {
+                        'tab-about' : {
+                            templateUrl: 'templates/about.html'
+                        }
+                    }
                 });
 
             // if none of the above states are matched, use this as the fallback
-            $urlRouterProvider.otherwise('/cheers');
+            $urlRouterProvider.otherwise('/tab/home');
 
         });
 })();
