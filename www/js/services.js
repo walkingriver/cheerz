@@ -6,7 +6,7 @@
 
     angular
         .module('cheerz')
-        .factory('cheerContext', ['$http', cheerContext]);
+        .service('cheerContext', ['$http', cheerContext]);
 
     function cheerContext($http) {
         // Might use a resource here that returns a JSON array

@@ -49,7 +49,7 @@
                     views: {
                         'tab-cheers': {
                             templateUrl: 'templates/cheer-detail.html',
-                            controller: 'cheersController as vm'
+                            controller: 'cheerDetailController as vm'
                         }
                     }
                 })
