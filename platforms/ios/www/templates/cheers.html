@@ -1,0 +1,11 @@
+<ion-view title="Cheers">
+  <ion-content class="has-header">
+      <ion-list>
+      <ion-item ng-repeat="cheer in vm.cheers"
+                type="item-text-wrap"
+                href="#/tab/cheer/{{cheer.id}}">
+        {{cheer.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
