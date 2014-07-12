@@ -9,8 +9,13 @@
         .service('cheerContext', ['$http', cheerContext]);
 
     function cheerContext($http) {
+        var id = 0;
+        var currentCheer = {};
+
         // Might use a resource here that returns a JSON array
         var cheers = getCheers();
+        var randomCheers = _.sortBy(cheers, 'order');
+
         var service = {
             all: function () {
                return cheers;
@@ -18,15 +23,37 @@
             getCount: getCount,
             get: function (cheerId) {
                 return cheers[cheerId];
-            }
+            },
+            currentCheer: function() {return currentCheer;},
+            nextCheer: nextCheer,
+            resetCheers: resetCheers
         };
 
+        activate();
         return service;
+
+        function activate() {
+            currentCheer = resetCheers();
+        }
 
         function getCount() {
             return cheers.length;
         }
 
+        function nextCheer() {
+            currentCheer = randomCheers[++id];
+            if (!currentCheer) {
+                return resetCheers();
+            }
+
+            return currentCheer;
+        }
+
+        function resetCheers() {
+            id = 0;
+            currentCheer = randomCheers[id];
+            return currentCheer;
+        }
         function getCheers() {
             // These are the default cheers
             cheers = [
