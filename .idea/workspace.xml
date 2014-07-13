@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e04418b-1a6b-4cc3-a067-b38a51f54383" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/inmobi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/HelloCordova.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/homeController.js" afterPath="$PROJECT_DIR$/www/js/homeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/about.html" afterPath="$PROJECT_DIR$/www/templates/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cheerz.iws" />
@@ -34,75 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
+      <file leaf-file-name="about.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.535715" vertical-offset="0" max-vertical-offset="1178">
-              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-              <folding>
-                <marker date="1405207718000" expanded="true" signature="1588:1901" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inmobi.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/inmobi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-              <caret line="0" column="10868" selection-start-line="0" selection-start-column="10868" selection-end-line="0" selection-end-column="10868" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1435769" vertical-offset="211" max-vertical-offset="1292">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding>
-                <element signature="e#1383#9713#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/homeController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="513">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="342">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="589">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.68333334" vertical-offset="147" max-vertical-offset="646">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,7 +53,6 @@
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/templates/tab-friends.html" />
         <option value="$PROJECT_DIR$/www/templates/friend-detail.html" />
-        <option value="$PROJECT_DIR$/www/templates/about.html" />
         <option value="$PROJECT_DIR$/www/js/cheersController.js" />
         <option value="$PROJECT_DIR$/www/templates/tabls.html" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
@@ -140,6 +67,7 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/homeController.js" />
         <option value="$PROJECT_DIR$/www/js/services.js" />
+        <option value="$PROJECT_DIR$/www/templates/about.html" />
       </list>
     </option>
   </component>
@@ -332,7 +260,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4193989" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26775956" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2048611" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -372,14 +300,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/inmobi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-          <caret line="0" column="10868" selection-start-line="0" selection-start-column="10868" selection-end-line="0" selection-end-column="10868" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
@@ -401,7 +321,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="1140">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
-            <marker date="1405207718000" expanded="true" signature="1588:1901" placeholder="..." />
+            <marker date="1405207718000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -453,7 +373,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
-            <marker date="1405207718000" expanded="true" signature="1588:1901" placeholder="..." />
+            <marker date="1405207718000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -505,7 +425,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
-            <marker date="1405207718000" expanded="true" signature="1588:1901" placeholder="..." />
+            <marker date="1405207718000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -584,13 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="722">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -698,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+        <state vertical-scroll-proportion="0.2578125" vertical-offset="205" max-vertical-offset="589">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
@@ -717,14 +630,14 @@
         <state vertical-scroll-proportion="-30.535715" vertical-offset="0" max-vertical-offset="1178">
           <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
-            <marker date="1405207718000" expanded="true" signature="1588:1901" placeholder="..." />
+            <marker date="1405207718000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="342">
+        <state vertical-scroll-proportion="0.20596206" vertical-offset="0" max-vertical-offset="369">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
@@ -732,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="513">
+        <state vertical-scroll-proportion="0.7607053" vertical-offset="40" max-vertical-offset="513">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
@@ -745,6 +658,19 @@
           <folding>
             <element signature="e#1383#9713#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/badenpowell.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68333334" vertical-offset="147" max-vertical-offset="646">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
