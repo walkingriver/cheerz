@@ -26,7 +26,8 @@
             },
             currentCheer: function() {return currentCheer;},
             nextCheer: nextCheer,
-            resetCheers: resetCheers
+            resetCheers: resetCheers,
+            saveCheer: saveCheer
         };
 
         activate();
@@ -54,6 +55,11 @@
             currentCheer = randomCheers[id];
             return currentCheer;
         }
+
+        function saveCheer(id, cheer) {
+
+        }
+
         function getCheers() {
             // These are the default cheers
             cheers = [

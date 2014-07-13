@@ -9,14 +9,18 @@
 
     function cheerDetailController($stateParams, cheerContext) {
         var vm = this;
-        vm.cheer = cheerContext.get($stateParams.cheerId);
-
-        vm.activate = activate;
-        vm.title = 'cheerDetailController';
+        var id = $stateParams.cheerId;
+        vm.cheer = {};
+        vm.save = save;
 
         activate();
 
         function activate() {
+            vm.cheer = angular.copy(cheerContext.get(id));
+        }
+
+        function save() {
+            cheerContext.saveCheer(id, vm.cheer);
         }
     }
 })();

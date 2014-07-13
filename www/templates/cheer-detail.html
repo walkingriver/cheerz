@@ -6,11 +6,11 @@
             </label>
 
             <label class="item item-input">
-                <textarea rows="4" placeholder="Description" style="height:100%;" ng-model="vm.cheer.description"></textarea>
+                <textarea rows="4" placeholder="Description" ng-model="vm.cheer.description"></textarea>
             </label>
 
         </div>
-        <button class="button button-block button-positive">
+        <button class="button button-block button-positive" ng-click="vm.save()">
             Save
         </button>
     </ion-content>
