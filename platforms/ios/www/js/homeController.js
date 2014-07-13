@@ -8,30 +8,15 @@
         .controller(controllerId, ['cheerContext', homeController]);
 
     function homeController(cheerContext) {
-        var id = 0;
         var vm = this;
-        vm.cheers = _.sortBy(cheerContext.all(), 'order');
-        resetCheers();
-
+        vm.currentCheer = cheerContext.currentCheer();
         vm.activate = activate;
         vm.title = 'Home';
-        vm.nextCheer = nextCheer;
+        vm.nextCheer = function() {vm.currentCheer = cheerContext.nextCheer();};
 
         activate();
 
         function activate() {
-        }
-
-        function nextCheer() {
-            vm.currentCheer = vm.cheers[++id];
-            if (!vm.currentCheer) {
-                resetCheers();
-            }
-        }
-
-        function resetCheers() {
-            id = 0;
-            vm.currentCheer = vm.cheers[id];
         }
     }
 })();

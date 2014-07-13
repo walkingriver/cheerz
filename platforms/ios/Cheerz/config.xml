@@ -32,11 +32,12 @@
     <description>
         A small mobile application that lets scouts randomly select a cheer from a list of cheers.
     </description>
-    <author email="michae@walkingriver.com" href="http://www.walkingriver.com/">
+    <author email="michael@walkingriver.com" href="http://www.walkingriver.com/">
       Michael Callaghan / Walking River Software
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="www/img/badenpowell.png" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
