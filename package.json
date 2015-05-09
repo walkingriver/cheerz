@@ -16,6 +16,17 @@
   },
   "cordovaPlugins": [],
   "cordovaPlatforms": [
-    "android"
+    "android",
+    "ios",
+    {
+      "platform": "android",
+      "version": "3.7.1",
+      "locator": "android"
+    },
+    {
+      "platform": "ios",
+      "version": "3.8.0",
+      "locator": "ios"
+    }
   ]
 }
