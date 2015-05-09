@@ -1,6 +1,6 @@
-<ion-view title="Edit &ldquo;{{vm.cheer.title}}&rdquo;">
+<ion-view title="{{vm.cheer.title}}">
     <ion-content has-header="true" padding="true">
-        <div class="list">
+        <!-- <div class="list">
             <label class="item item-input">
                 <input type="text" placeholder="Cheer Title" ng-model="vm.cheer.title">
             </label>
@@ -12,6 +12,10 @@
         </div>
         <button class="button button-block button-positive" ng-click="vm.save()">
             Save
-        </button>
+        </button>-->
+        <div class="card">
+            <div class="item item-divider">{{vm.cheer.title}}</div>
+            <div class="item item-text-wrap">{{vm.cheer.description}}</div>
+        </div>
     </ion-content>
 </ion-view>
