@@ -15,9 +15,11 @@ $royal:                           #8a6de9 !default;
 $dark:                            #444 !default;
 */
 
+// Must override variables before calling into Ionic itself.
+$positive:                        #006B3F !default;
+
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-

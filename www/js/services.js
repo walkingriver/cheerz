@@ -68,7 +68,7 @@
             var index = 0;
             var cheersMap = allCheers().map(function (e) {
                 return {
-                    id: ++index,
+                    id: index++,
                     order: getOrder(),
                     title: e.title,
                     description: e.desc
