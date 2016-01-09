@@ -26,7 +26,7 @@ node_modules
 bower_components/
 
 # Ignore Web Storm #
-.idea
+.idea/
 
 # Cordova-specific folder
 platforms/
